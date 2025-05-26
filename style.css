@@ -70,6 +70,26 @@
     margin-block: 0;
   }
 
+  .nav > a {
+    font-size: 1rem; /* default */
+  }
+  
+  @media (max-width: 768px) {
+    .nav > a {
+      font-size: 0.9rem;
+      padding: 6px 8px;
+      margin-top: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .nav > a {
+      font-size: 0.8rem;
+      padding: 4px 6px;
+      margin: 6px 0;
+    }
+  }
+  
   .nav {
     border-top: 1px solid white;
     margin: 10px;
