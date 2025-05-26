@@ -89,13 +89,13 @@
       margin: 6px 0;
     }
   }
-  
+
   .nav {
     border-top: 1px solid white;
     margin: 10px;
     position: sticky;
     top: 0px;
-    width:98%;
+    width: 95vw;
     z-index: 9999;
     display: flex;
     justify-content: center;
@@ -156,6 +156,7 @@
     background: #000000;
     color: #f5f5f5;
     font-family: sans-serif;
+
   }
   
   .col{
@@ -174,6 +175,8 @@
   @media (max-width: 727px) {
     body{
       margin: 8px;
+
+        padding-right: 5px;
     }
     .lg{
       width: 100%;
