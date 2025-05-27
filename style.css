@@ -91,11 +91,15 @@
   }
 
   .nav {
+
+    display: flex;
+    width: 98%;
+    justify-content: center;
+
     border-top: 1px solid white;
-    margin: 10px;
+    margin: 15px;
     position: sticky;
     top: 0px;
-    width: 92vw;
     z-index: 9999;
     display: flex;
     justify-content: center;
