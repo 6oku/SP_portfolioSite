@@ -26,8 +26,6 @@
 }
 
 
-
-
 .intro{
     height: 40vh; 
     display: flex;
@@ -36,7 +34,7 @@
   
   .intro > .line{
     position: absolute;
-    height: 70%; 
+    height: 80%; 
     width: 1px;
     left: 50%;
     top: 0px;
