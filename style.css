@@ -613,18 +613,22 @@ p, h1, h2{
 .modal {
   display: none; /* Hidden by default */
   position: fixed;
-  z-index: 9999; /* On top of everything */
+  z-index: 9999;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(6px);
-  justify-content: center;
-  align-items: center;
+
+  display: flex; /* Add this */
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Already present, centers vertically */
+
   padding: 10px;
-  margin: 5px;
+  margin: 0; /* Remove margin to prevent layout shift */
 }
+
 
 /* Modal box */
 .modal-content {
@@ -634,12 +638,14 @@ p, h1, h2{
   padding: 20px;
   border-radius: 8px;
   max-width: 325px;
+  width: 100%;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
   text-align: center;
   position: relative;
   padding: 10px;
   margin: 5px;
 }
+
 
 .modal-content a{
   color:blue;
