@@ -622,9 +622,8 @@ p, h1, h2{
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(6px);
   align-items: center;
+  text-align: center;
   justify-content: center;
-  padding: 10px;
-  margin: 10px;
 }
 
 /* Modal box */
