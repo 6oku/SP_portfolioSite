@@ -758,6 +758,7 @@ text-shadow:
 
 .fontplay2 .title:hover {
   color:white;
+  -webkit-text-stroke:0px;
 }
 
 
