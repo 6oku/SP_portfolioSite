@@ -311,7 +311,7 @@
     /* background-color: #a2d8e2; */
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px); /* For Safari */
-    background-color: rgba(0, 0, 0, 0.307); /* Optional translucent bg */
+    background-color: rgba(0, 0, 0, 0.717); /* Optional translucent bg */
 
     transition:
     opacity 0.3s ease,
